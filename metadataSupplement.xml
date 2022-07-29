@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_GB" dataSources="ds962" resourceIdentifier="'cas-shared-default','CASUSER','MARLOWHIVES_V2','en_GB'" tableModifiedTimeStamp="2022-07-29T11:42:14.026Z">
+            <columns>
+                <column dataType="string" label="App" xref="App"/>
+                <column dataType="string" label="Device" xref="Device"/>
+                <column dataType="string" label="Hive_Position" xref="Hive_Position"/>
+                <column dataType="string" label="Record_Type" xref="Record_Type"/>
+                <column dataType="double" format="BEST12." label="DownloadTimeStamp" xref="DownloadTimeStamp"/>
+                <column dataType="string" label="UTC_TimeStamp" xref="UTC_TimeStamp"/>
+                <column dataType="string" label="Local_TimeStamp" xref="Local_TimeStamp"/>
+                <column dataType="double" format="BEST12." label="Unix_Time" xref="Unix_Time"/>
+                <column dataType="double" format="BEST12." label="Sample" xref="Sample"/>
+                <column dataType="string" label="Metric" xref="Metric"/>
+                <column dataType="double" format="BEST12." label="Battery" xref="Battery"/>
+                <column dataType="double" format="BEST12." label="Temperature" xref="Temperature"/>
+                <column dataType="string" label="Humidity" xref="Humidity"/>
+                <column dataType="double" format="BEST12." label="Scaled_Weight" xref="Scaled_Weight"/>
+                <column dataType="double" format="BEST12." label="Weight_Scale_Factor" xref="Weight_Scale_Factor"/>
+                <column dataType="double" format="BEST12." label="Weight" xref="Weight"/>
+                <column dataType="double" format="BEST12." label="WeightL" xref="WeightL"/>
+                <column dataType="string" label="WeightLRaw" xref="WeightLRaw"/>
+                <column dataType="double" format="BEST12." label="WeightR" xref="WeightR"/>
+                <column dataType="string" label="WeightRRaw" xref="WeightRRaw"/>
+                <column dataType="double" format="BEST12." label="weight_difference" xref="weight_difference"/>
+                <column dataType="double" format="BEST12." label="UNIX_hour_round" xref="UNIX_hour_round"/>
+                <column dataType="double" format="BEST12." label="Precipitation_cm" xref="Precipitation_cm"/>
+                <column dataType="double" format="BEST12." label="Relative_Humidity" xref="Relative_Humidity"/>
+                <column dataType="double" format="BEST12." label="Cloud_Cover" xref="Cloud_Cover"/>
+                <column dataType="double" format="BEST12." label="WindSpeed10mAbove_km/h" xref="WindSpeed10mAbove_km/h"/>
+                <column dataType="double" format="BEST12." label="SurfacePressure_millibars" xref="SurfacePressure_millibars"/>
+                <column dataType="double" format="BEST12." label="WindDirection_degrees" xref="WindDirection_degrees"/>
+                <column dataType="datetime" format="DATETIME0" label="SAS_datetime" xref="SAS_datetime"/>
+                <column dataType="string" label="Hive" xref="Hive"/>
+                <column dataType="double" format="BEST12." label="new_weight_difference" xref="new_weight_difference"/>
+                <column dataType="double" format="BEST12." label="change_weight_flag" xref="change_weight_flag"/>
+                <column dataType="double" format="BEST12." label="bee_productivity" xref="bee_productivity"/>
+            </columns>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds2809" resourceIdentifier="'cas-shared-default','CASUSER','HIVE_DATA_HOUR','en_GB'" tableModifiedTimeStamp="2022-07-29T11:42:15.423Z">
+            <columns>
+                <column dataType="double" format="BEST12." label="hour" xref="hour"/>
+                <column dataType="date" format="DATE9" label="date" xref="date"/>
+                <column dataType="double" format="BEST12." label="new_weight_difference" xref="new_weight_difference"/>
+                <column dataType="double" format="BEST12." label="bee_productivity" xref="bee_productivity"/>
+                <column dataType="double" format="BEST12." label="Temperature" xref="Temperature"/>
+                <column dataType="double" format="BEST12." label="Cloud_Cover" xref="Cloud_Cover"/>
+                <column dataType="double" format="BEST12." label="Precipitation_cm" xref="Precipitation_cm"/>
+                <column dataType="double" format="BEST12." label="WindDirection_degrees" xref="WindDirection_degrees"/>
+                <column dataType="double" format="BEST12." label="WindSpeed10mAbove_km/h" xref="WindSpeed10mAbove_km/h"/>
+                <column dataType="double" format="BEST12." label="Relative_Humidity" xref="Relative_Humidity"/>
+                <column dataType="datetime" format="DATETIME0" label="sas_datetime" xref="sas_datetime"/>
+                <column dataType="string" label="aggregation" xref="aggregation"/>
+                <column dataType="string" label="Hive" xref="Hive"/>
+            </columns>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds6868" resourceIdentifier="'cas-shared-default','CASUSER','HIVE_DATA_WEEK','en_GB'" tableModifiedTimeStamp="2022-07-29T11:42:15.726Z">
+            <columns>
+                <column dataType="date" format="WEEKDATE28" label="sas_datetime" xref="sas_datetime"/>
+                <column dataType="double" format="BEST12." label="new_weight_difference" xref="new_weight_difference"/>
+                <column dataType="double" format="BEST12." label="bee_productivity" xref="bee_productivity"/>
+                <column dataType="double" format="BEST12." label="Temperature" xref="Temperature"/>
+                <column dataType="double" format="BEST12." label="Cloud_Cover" xref="Cloud_Cover"/>
+                <column dataType="double" format="BEST12." label="Precipitation_cm" xref="Precipitation_cm"/>
+                <column dataType="double" format="BEST12." label="WindDirection_degrees" xref="WindDirection_degrees"/>
+                <column dataType="double" format="BEST12." label="WindSpeed10mAbove_km/h" xref="WindSpeed10mAbove_km/h"/>
+                <column dataType="double" format="BEST12." label="Relative_Humidity" xref="Relative_Humidity"/>
+                <column dataType="string" label="aggregation" xref="aggregation"/>
+                <column dataType="string" label="Hive" xref="Hive"/>
+                <column dataType="string" label="weight_difference_sign" xref="weight_difference_sign"/>
+                <column dataType="double" format="BEST12." label="prev_week_temp1" xref="prev_week_temp1"/>
+                <column dataType="double" format="BEST12." label="prev_week_cloud1" xref="prev_week_cloud1"/>
+                <column dataType="double" format="BEST12." label="prev_week_humidity1" xref="prev_week_humidity1"/>
+                <column dataType="double" format="BEST12." label="prev_week_winddir1" xref="prev_week_winddir1"/>
+                <column dataType="double" format="BEST12." label="prev_week_windspd1" xref="prev_week_windspd1"/>
+                <column dataType="double" format="BEST12." label="prev_week_rain1" xref="prev_week_rain1"/>
+            </columns>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds15761" resourceIdentifier="GeneratedResource-ge15759" tableModifiedTimeStamp="2022-07-29T11:42:15.726Z">
+            <columns/>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds29228" resourceIdentifier="'cas-shared-default','CASUSER','HIVE_DATA_DAY','en_GB'" tableModifiedTimeStamp="2022-07-29T11:42:15.588Z">
+            <columns>
+                <column dataType="date" format="DATE9" label="sas_datetime" xref="sas_datetime"/>
+                <column dataType="double" format="BEST12." label="new_weight_difference" xref="new_weight_difference"/>
+                <column dataType="double" format="BEST12." label="bee_productivity" xref="bee_productivity"/>
+                <column dataType="double" format="BEST12." label="Temperature" xref="Temperature"/>
+                <column dataType="double" format="BEST12." label="Cloud_Cover" xref="Cloud_Cover"/>
+                <column dataType="double" format="BEST12." label="Precipitation_cm" xref="Precipitation_cm"/>
+                <column dataType="double" format="BEST12." label="WindDirection_degrees" xref="WindDirection_degrees"/>
+                <column dataType="double" format="BEST12." label="WindSpeed10mAbove_km/h" xref="WindSpeed10mAbove_km/h"/>
+                <column dataType="double" format="BEST12." label="Relative_Humidity" xref="Relative_Humidity"/>
+                <column dataType="string" label="aggregation" xref="aggregation"/>
+                <column dataType="string" label="Hive" xref="Hive"/>
+                <column dataType="double" format="BEST12." label="prev_day_temp1" xref="prev_day_temp1"/>
+                <column dataType="double" format="BEST12." label="prev_day_cloud1" xref="prev_day_cloud1"/>
+                <column dataType="double" format="BEST12." label="prev_day_humidity1" xref="prev_day_humidity1"/>
+                <column dataType="double" format="BEST12." label="prev_day_winddir1" xref="prev_day_winddir1"/>
+                <column dataType="double" format="BEST12." label="prev_day_windspd1" xref="prev_day_windspd1"/>
+                <column dataType="double" format="BEST12." label="prev_day_rain1" xref="prev_day_rain1"/>
+                <column dataType="double" format="BEST12." label="prev_day_temp2" xref="prev_day_temp2"/>
+                <column dataType="double" format="BEST12." label="prev_day_cloud2" xref="prev_day_cloud2"/>
+                <column dataType="double" format="BEST12." label="prev_day_humidity2" xref="prev_day_humidity2"/>
+                <column dataType="double" format="BEST12." label="prev_day_winddir2" xref="prev_day_winddir2"/>
+                <column dataType="double" format="BEST12." label="prev_day_windspd2" xref="prev_day_windspd2"/>
+                <column dataType="double" format="BEST12." label="prev_day_rain2" xref="prev_day_rain2"/>
+                <column dataType="double" format="BEST12." label="prev_day_temp3" xref="prev_day_temp3"/>
+                <column dataType="double" format="BEST12." label="prev_day_cloud3" xref="prev_day_cloud3"/>
+                <column dataType="double" format="BEST12." label="prev_day_humidity3" xref="prev_day_humidity3"/>
+                <column dataType="double" format="BEST12." label="prev_day_winddir3" xref="prev_day_winddir3"/>
+                <column dataType="double" format="BEST12." label="prev_day_windspd3" xref="prev_day_windspd3"/>
+                <column dataType="double" format="BEST12." label="prev_day_rain3" xref="prev_day_rain3"/>
+                <column dataType="string" label="weight_difference_sign" xref="weight_difference_sign"/>
+            </columns>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds29925" resourceIdentifier="GeneratedResource-ge29923" tableModifiedTimeStamp="2022-07-29T11:42:15.588Z">
+            <columns/>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds31282" resourceIdentifier="'cas-shared-default','CASUSER','HIVE_DATA_SEMIMONTH','en_GB'" tableModifiedTimeStamp="2022-07-29T11:42:15.892Z">
+            <columns>
+                <column dataType="date" format="DATE9" label="sas_datetime" xref="sas_datetime"/>
+                <column dataType="double" format="BEST12." label="new_weight_difference" xref="new_weight_difference"/>
+                <column dataType="double" format="BEST12." label="bee_productivity" xref="bee_productivity"/>
+                <column dataType="double" format="BEST12." label="Temperature" xref="Temperature"/>
+                <column dataType="double" format="BEST12." label="Cloud_Cover" xref="Cloud_Cover"/>
+                <column dataType="double" format="BEST12." label="Precipitation_cm" xref="Precipitation_cm"/>
+                <column dataType="double" format="BEST12." label="WindDirection_degrees" xref="WindDirection_degrees"/>
+                <column dataType="double" format="BEST12." label="WindSpeed10mAbove_km/h" xref="WindSpeed10mAbove_km/h"/>
+                <column dataType="double" format="BEST12." label="Relative_Humidity" xref="Relative_Humidity"/>
+                <column dataType="string" label="aggregation" xref="aggregation"/>
+                <column dataType="string" label="Hive" xref="Hive"/>
+            </columns>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds31296" resourceIdentifier="'cas-shared-default','CASUSER','HIVE_DATA_MONTH','en_GB'" tableModifiedTimeStamp="2022-07-29T11:42:16.076Z">
+            <columns>
+                <column dataType="date" format="MONYY7" label="sas_datetime" xref="sas_datetime"/>
+                <column dataType="double" format="BEST12." label="new_weight_difference" xref="new_weight_difference"/>
+                <column dataType="double" format="BEST12." label="bee_productivity" xref="bee_productivity"/>
+                <column dataType="double" format="BEST12." label="Temperature" xref="Temperature"/>
+                <column dataType="double" format="BEST12." label="Cloud_Cover" xref="Cloud_Cover"/>
+                <column dataType="double" format="BEST12." label="Precipitation_cm" xref="Precipitation_cm"/>
+                <column dataType="double" format="BEST12." label="WindDirection_degrees" xref="WindDirection_degrees"/>
+                <column dataType="double" format="BEST12." label="WindSpeed10mAbove_km/h" xref="WindSpeed10mAbove_km/h"/>
+                <column dataType="double" format="BEST12." label="Relative_Humidity" xref="Relative_Humidity"/>
+                <column dataType="string" label="aggregation" xref="aggregation"/>
+                <column dataType="string" label="Hive" xref="Hive"/>
+            </columns>
+        </table>
+        <table dataLocale="en_GB" dataSources="ds34029" resourceIdentifier="'cas-shared-default','CASUSER','MARLOWHIVES_TEMPERATURE','en_GB'" tableModifiedTimeStamp="2022-07-29T11:42:13.054Z">
+            <columns>
+                <column dataType="string" label="App" xref="App"/>
+                <column dataType="string" label="Device" xref="Device"/>
+                <column dataType="string" label="Hive_Position" xref="Hive_Position"/>
+                <column dataType="string" label="Record_Type" xref="Record_Type"/>
+                <column dataType="double" format="BEST12." label="DownloadTimeStamp" xref="DownloadTimeStamp"/>
+                <column dataType="string" label="UTC_TimeStamp" xref="UTC_TimeStamp"/>
+                <column dataType="string" label="Local_TimeStamp" xref="Local_TimeStamp"/>
+                <column dataType="double" format="BEST12." label="Unix_Time" xref="Unix_Time"/>
+                <column dataType="double" format="BEST12." label="Sample" xref="Sample"/>
+                <column dataType="string" label="Metric" xref="Metric"/>
+                <column dataType="double" format="BEST12." label="Battery" xref="Battery"/>
+                <column dataType="double" format="BEST12." label="internal_temperature" xref="internal_temperature"/>
+                <column dataType="string" label="Humidity" xref="Humidity"/>
+                <column dataType="double" format="BEST12." label="Scaled_Weight" xref="Scaled_Weight"/>
+                <column dataType="double" format="BEST12." label="UNIX_hour_round" xref="UNIX_hour_round"/>
+                <column dataType="double" format="BEST12." label="Temperature" xref="Temperature"/>
+                <column dataType="double" format="BEST12." label="Precipitation_cm" xref="Precipitation_cm"/>
+                <column dataType="double" format="BEST12." label="Relative_Humidity" xref="Relative_Humidity"/>
+                <column dataType="double" format="BEST12." label="Cloud_Cover" xref="Cloud_Cover"/>
+                <column dataType="double" format="BEST12." label="WindSpeed10mAbove_km/h" xref="WindSpeed10mAbove_km/h"/>
+                <column dataType="double" format="BEST12." label="SurfacePressure_millibars" xref="SurfacePressure_millibars"/>
+                <column dataType="double" format="BEST12." label="WindDirection_degrees" xref="WindDirection_degrees"/>
+                <column dataType="datetime" format="DATETIME0" label="SAS_datetime" xref="SAS_datetime"/>
+                <column dataType="string" label="Hive" xref="Hive"/>
+                <column dataType="double" format="BEST12." label="internal_humidity" xref="internal_humidity"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
