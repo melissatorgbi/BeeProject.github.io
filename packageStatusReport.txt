@@ -1,0 +1,11 @@
+Slider - sas_datetime 1
+  Interactivity for this object is limited for the following reasons:
+    * This object uses a data source with a partition.
+
+Time - sas_datetime 3
+  Interactivity for this object is limited for the following reasons:
+    * This object uses a data source with a partition.
+
+Time - sas_datetime 1
+  Interactivity for this object is limited for the following reasons:
+    * This object uses a data source with a partition.

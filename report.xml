@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.20.0" label="SAS Marlow Bee Project" createdLocale="en" createdVersion="4.16.0" dateCreated="2022-05-16T21:06:45Z" dateModified="2022-07-29T11:44:14Z" createdApplication="SAS Visual Analytics 2020" lastModifiedApplication="SAS Visual Analytics 2020" nextUniqueNameIndex="34379">
+	<Results>
+		<Result ref="dd34181" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:13.054Z">
+			<Variables>
+				<StringVariable label="Hive" ref="bi34183" varname="bi34183" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi34183" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="2" contentKey="BMYJNKXHDN4LKE54E7NEDQGVFI6AOHV2" size="4" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[0
+1
+]]></Data>
+			<StringTable contentKey="ZUBX44ED2L7JPVUURC7XB35QCZKTIL3F" size="16" format="CSV" rowCount="2"><![CDATA["Hive1"
+"Hive2"
+]]></StringTable>
+		</Result>
+		<Result ref="dd31173" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:15.423Z">
+			<Variables>
+				<StringVariable label="Hive" ref="bi31175" varname="bi31175" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi31175" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="2" contentKey="BMYJNKXHDN4LKE54E7NEDQGVFI6AOHV2" size="4" format="CSV" rowCount="2" grandTotal="false" dataLayout="minimal"><![CDATA[0
+1
+]]></Data>
+			<StringTable contentKey="ZUBX44ED2L7JPVUURC7XB35QCZKTIL3F" size="16" format="CSV" rowCount="2"><![CDATA["Hive1"
+"Hive2"
+]]></StringTable>
+		</Result>
+		<Result ref="dd2650" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:14.026Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="quantitative" definedAggregation="min" label="SAS_datetime" ref="bi2664" varname="bi2664" column="c0"/>
+				<NumericVariable format="DATETIME0" usage="quantitative" definedAggregation="max" label="SAS_datetime" ref="bi2665" varname="bi2665" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="F3K333BZIXBBHDMLVMK27SY4KEFZH3LN" size="28" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[1.953282792E9,1.974646797E9
+]]></Data>
+		</Result>
+		<Result ref="dd1377" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:14.026Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi1381" varname="bi1381" column="c0"/>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34361" varname="bi34361" column="c1"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="bee_productivity" ref="bi6844" varname="bi6844" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="datetime" colname="c0" encoding="text"/>
+				<NumericColumn dataType="datetime" colname="c1" encoding="text"/>
+				<NumericAggregations colname="c2" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DataFile contentKey="PD5W7NVB3B3FFWOOCHJ6NU5J77RMXJDA" size="269487" format="CSV" rowCount="5971" grandTotal="false" dataLayout="partiallyAggregated" file="dd1377.csv" isIndexed="false" availableRowCount="5971"/>
+		</Result>
+		<Result ref="dd1382" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:14.026Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi1383" varname="bi1383" column="c0"/>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34362" varname="bi34362" column="c1"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="bee_productivity" ref="bi6845" varname="bi6845" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="datetime" colname="c0" encoding="text"/>
+				<NumericColumn dataType="datetime" colname="c1" encoding="text"/>
+				<NumericAggregations colname="c2" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DataFile contentKey="5DXK2KR3XENMSJEVLX4YHP5Y4RXRHS5K" size="277952" format="CSV" rowCount="5968" grandTotal="false" dataLayout="partiallyAggregated" file="dd1382.csv" isIndexed="false" availableRowCount="5968"/>
+		</Result>
+		<Result ref="dd34068" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:15.588Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
+					<Parameters>
+						<Parameter key="unsupportedFeature">This object uses a data source with a partition.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="DATE9" usage="quantitative" definedAggregation="min" label="sas_datetime" ref="bi34076" varname="bi34076" column="c0"/>
+				<NumericVariable format="DATE9" usage="quantitative" definedAggregation="max" label="sas_datetime" ref="bi34077" varname="bi34077" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="double" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="1" contentKey="Q6B443B6H54YAJWBYUNQCRY7FQ3ZL54H" size="16" format="CSV" rowCount="1" grandTotal="false" dataLayout="minimal"><![CDATA[22608.0,22853.0
+]]></Data>
+		</Result>
+		<Result ref="dd31266" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:15.588Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
+					<Parameters>
+						<Parameter key="unsupportedFeature">This object uses a data source with a partition.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="DATE9" usage="categorical" label="sas_datetime" ref="bi31269" varname="bi31269" column="c0"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="bee_productivity" ref="bi31271" varname="bi31271" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="date" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<DataFile contentKey="VEPGRC3DYUSKHNAVJ3X7XQVCWRIKJ2M6" size="6770" format="CSV" rowCount="246" grandTotal="false" dataLayout="minimal" file="dd31266.csv" isIndexed="false" availableRowCount="246"/>
+		</Result>
+		<Result ref="dd31276" type="relational" status="warning" dataLevel="baseline" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:15.726Z">
+			<Messages>
+				<Message messageKey="limitedInteractivity" messageLevel="warning">
+					<MessageText>The package data is incomplete. The data required to support actions could not be retrieved. (Unsupported feature)</MessageText>
+					<Parameters>
+						<Parameter key="unsupportedFeature">This object uses a data source with a partition.</Parameter>
+					</Parameters>
+				</Message>
+			</Messages>
+			<Variables>
+				<NumericVariable format="WEEKDATE28" usage="categorical" label="sas_datetime" ref="bi31279" varname="bi31279" column="c0"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="bee_productivity" ref="bi31281" varname="bi31281" column="c1"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="date" colname="c0" encoding="text"/>
+				<NumericColumn dataType="double" colname="c1" encoding="text"/>
+			</Columns>
+			<Data isIndexed="false" availableRowCount="34" contentKey="C6UVUJLG7552TXCSXVSVHKNNDONEPCYM" size="943" format="CSV" rowCount="34" grandTotal="false" dataLayout="minimal"><![CDATA[22612.0,-1.2150617794498504
+22619.0,-0.6778349621613144
+22626.0,-0.5310641204451145
+22633.0,-2.5617598914201776
+22640.0,-1.2462842469767923
+22647.0,-3.2980154269576984
+22654.0,-3.6927620943913735
+22661.0,-4.182392857136659
+22668.0,-4.883611835414275
+22675.0,-5.425334642819545
+22682.0,-5.408026612755874
+22689.0,-5.415774915649221
+22696.0,-12.168852308893648
+22703.0,-13.165986815454653
+22710.0,-15.121512665949588
+22717.0,-16.012927851705385
+22724.0,-22.075389776978145
+22731.0,-26.198318662127516
+22738.0,-25.790680046168504
+22745.0,-26.775228020539288
+22752.0,-25.74924457834605
+22759.0,-24.34531347702817
+22766.0,-20.568162130990622
+22773.0,-18.122405888760444
+22780.0,-20.519276897315265
+22787.0,-25.017738095237846
+22794.0,-25.279940476190816
+22801.0,-23.535416666666567
+22808.0,-25.048690476190618
+22815.0,-24.446726190476216
+22822.0,-21.3843253968256
+22829.0,-19.470818452380712
+22836.0,-18.913630952380625
+22843.0,-19.032837301587442
+]]></Data>
+		</Result>
+		<Result ref="dd31314" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:15.892Z">
+			<Variables>
+				<NumericVariable format="DATE9" usage="categorical" label="sas_datetime" ref="bi31317" varname="bi31317" column="c0"/>
+				<StringVariable label="Hive" ref="bi34367" varname="bi34367" column="c1"/>
+				<NumericVariable format="DATE9" usage="categorical" label="sas_datetime" ref="bi34368" varname="bi34368" column="c2"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="bee_productivity" ref="bi31319" varname="bi31319" column="c3"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="date" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="date" colname="c2" encoding="text"/>
+				<NumericAggregations colname="c3" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="30" contentKey="JK6TTMV2NZXYNGBMYBVJZFTXKZ7VMII5" size="1126" format="CSV" rowCount="30" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[22615.0,0,22615.0,-0.5643379238629873
+22615.0,1,22615.0,-0.7040755934610955
+22630.0,0,22630.0,-1.8284249674100799
+22630.0,1,22630.0,-0.4281150797794378
+22646.0,0,22646.0,-3.359668398851788
+22646.0,1,22646.0,-1.5819304934477065
+22661.0,0,22661.0,-4.660908302991033
+22661.0,1,22661.0,-2.220954408112842
+22677.0,0,22677.0,-5.299039557333316
+22677.0,1,22677.0,-3.940178003006685
+22692.0,0,22692.0,-10.643005846217541
+22692.0,1,22692.0,-10.282279053992246
+22705.0,0,22705.0,-14.255083091321962
+22705.0,1,22705.0,-14.16136154597403
+22720.0,0,22720.0,-21.911581560854792
+22720.0,1,22720.0,-22.17276732798427
+22736.0,0,22736.0,-26.350167035263716
+22736.0,1,22736.0,-28.66994528760735
+22751.0,0,22751.0,-25.129793759174625
+22751.0,1,22751.0,-29.293411580763866
+22766.0,0,22766.0,-19.35529285366164
+22766.0,1,22766.0,-28.10832599780795
+22781.0,0,22781.0,-23.699345100908666
+22781.0,1,22781.0,-32.41459322706439
+22797.0,0,22797.0,-24.125666666666827
+22797.0,1,22797.0,-40.29197222222221
+22812.0,0,22812.0,-23.69874074074076
+22812.0,1,22812.0,-42.729731481481345
+22827.0,0,22827.0,-19.365881944444222
+22827.0,1,22827.0,-40.18636805555539
+]]></Data>
+			<StringTable contentKey="ZUBX44ED2L7JPVUURC7XB35QCZKTIL3F" size="16" format="CSV" rowCount="2"><![CDATA["Hive1"
+"Hive2"
+]]></StringTable>
+		</Result>
+		<Result ref="dd31324" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:16.076Z">
+			<Variables>
+				<NumericVariable format="MONYY7" usage="categorical" label="sas_datetime" ref="bi31327" varname="bi31327" column="c0"/>
+				<StringVariable label="Hive" ref="bi34369" varname="bi34369" column="c1"/>
+				<NumericVariable format="MONYY7" usage="categorical" label="sas_datetime" ref="bi34370" varname="bi34370" column="c2"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="bee_productivity" ref="bi31329" varname="bi31329" column="c3"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="date" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="date" colname="c2" encoding="text"/>
+				<NumericAggregations colname="c3" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="14" contentKey="7ASISBI6BC5ZRASGSUYN527TMJZU45UN" size="522" format="CSV" rowCount="14" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[22615.0,0,22615.0,-1.216769946338906
+22615.0,1,22615.0,-0.5616443605931432
+22646.0,0,22646.0,-4.031276091310754
+22646.0,1,22646.0,-1.911749288113583
+22677.0,0,22677.0,-7.780166762886706
+22677.0,1,22677.0,-6.884724919535696
+22705.0,0,22705.0,-18.206824236887293
+22705.0,1,22705.0,-18.296280659269637
+22736.0,0,22736.0,-25.739980397219174
+22736.0,1,22736.0,-28.98167843418561
+22766.0,0,22766.0,-21.59738433611172
+22766.0,1,22766.0,-30.3309155354887
+22797.0,0,22797.0,-23.912203703703792
+22797.0,1,22797.0,-41.51085185185178
+]]></Data>
+			<StringTable contentKey="ZUBX44ED2L7JPVUURC7XB35QCZKTIL3F" size="16" format="CSV" rowCount="2"><![CDATA["Hive1"
+"Hive2"
+]]></StringTable>
+		</Result>
+		<Result ref="dd34139" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:14.026Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34153" varname="bi34153" column="c0"/>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34372" varname="bi34372" column="c1"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Weight" ref="bi34164" varname="bi34164" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="datetime" colname="c0" encoding="text"/>
+				<NumericColumn dataType="datetime" colname="c1" encoding="text"/>
+				<NumericAggregations colname="c2" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+					<DataColumn dataType="double" aggregation="count"/>
+				</NumericAggregations>
+			</Columns>
+			<DataFile contentKey="UFK4YQDBEBW6JV7YVAWPNYXWVMK6OZQ2" size="224823" format="CSV" rowCount="5971" grandTotal="false" dataLayout="partiallyAggregated" file="dd34139.csv" isIndexed="false" availableRowCount="5971"/>
+		</Result>
+		<Result ref="dd34146" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:14.026Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34155" varname="bi34155" column="c0"/>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34373" varname="bi34373" column="c1"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="average" label="Weight" ref="bi34163" varname="bi34163" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="datetime" colname="c0" encoding="text"/>
+				<NumericColumn dataType="datetime" colname="c1" encoding="text"/>
+				<NumericAggregations colname="c2" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+					<DataColumn dataType="double" aggregation="count"/>
+				</NumericAggregations>
+			</Columns>
+			<DataFile contentKey="QPZQPTD5TCGJPE4CTQHV4RYADJIZA4N4" size="226203" format="CSV" rowCount="5968" grandTotal="false" dataLayout="partiallyAggregated" file="dd34146.csv" isIndexed="false" availableRowCount="5968"/>
+		</Result>
+		<Result ref="dd34298" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:13.054Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="quantitative" definedAggregation="min" label="SAS_datetime" ref="bi34300" varname="bi34300" column="c0"/>
+				<NumericVariable format="DATETIME0" usage="quantitative" definedAggregation="max" label="SAS_datetime" ref="bi34301" varname="bi34301" column="c1"/>
+				<StringVariable label="Hive" ref="bi34378" varname="bi34378" column="c2"/>
+			</Variables>
+			<Columns>
+				<NumericAggregations colname="c0" encoding="text">
+					<DataColumn dataType="double" aggregation="min"/>
+				</NumericAggregations>
+				<NumericAggregations colname="c1" encoding="text">
+					<DataColumn dataType="double" aggregation="max"/>
+				</NumericAggregations>
+				<StringColumn maxLength="1" colname="c2" encoding="text"/>
+			</Columns>
+			<Data isIndexed="true" availableRowCount="2" contentKey="PCAJE46FW7PJPCRMHTV7WJNPTWVKNM4B" size="60" format="CSV" rowCount="2" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[1.968570339E9,1.974010228E9,0
+1.968570316E9,1.974017711E9,1
+]]></Data>
+			<StringTable contentKey="ZUBX44ED2L7JPVUURC7XB35QCZKTIL3F" size="16" format="CSV" rowCount="2"><![CDATA["Hive1"
+"Hive2"
+]]></StringTable>
+		</Result>
+		<Result ref="dd34171" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:13.054Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34174" varname="bi34174" column="c0"/>
+				<StringVariable label="Hive" ref="bi34374" varname="bi34374" column="c1"/>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34375" varname="bi34375" column="c2"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="internal_temperature" ref="bi34176" varname="bi34176" column="c3"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="datetime" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="datetime" colname="c2" encoding="text"/>
+				<NumericAggregations colname="c3" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DataFile contentKey="7ZBXX6E3SVJVDRRIARXRGCQAAU7FMNXV" size="125995" format="CSV" rowCount="3508" grandTotal="false" dataLayout="partiallyAggregated" file="dd34171.csv" isIndexed="true" availableRowCount="3508"/>
+			<StringTableFile contentKey="ZUBX44ED2L7JPVUURC7XB35QCZKTIL3F" size="16" format="CSV" rowCount="2" file="dd34171index.csv"/>
+		</Result>
+		<Result ref="dd34283" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_GB" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_GB" tableDateModified="2022-07-29T11:42:13.054Z">
+			<Variables>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34284" varname="bi34284" column="c0"/>
+				<StringVariable label="Hive" ref="bi34376" varname="bi34376" column="c1"/>
+				<NumericVariable format="DATETIME0" usage="categorical" label="SAS_datetime" ref="bi34377" varname="bi34377" column="c2"/>
+				<NumericVariable format="BEST12." usage="quantitative" definedAggregation="sum" label="internal_humidity" ref="bi34292" varname="bi34292" column="c3"/>
+			</Variables>
+			<Columns>
+				<NumericColumn dataType="datetime" colname="c0" encoding="text"/>
+				<StringColumn maxLength="1" colname="c1" encoding="text"/>
+				<NumericColumn dataType="datetime" colname="c2" encoding="text"/>
+				<NumericAggregations colname="c3" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DataFile contentKey="GB74MVBFM7TE6LAJ57UYZBNNKUYHPI6M" size="122704" format="CSV" rowCount="3506" grandTotal="false" dataLayout="partiallyAggregated" file="dd34283.csv" isIndexed="true" availableRowCount="3506"/>
+			<StringTableFile contentKey="ZUBX44ED2L7JPVUURC7XB35QCZKTIL3F" size="16" format="CSV" rowCount="2" file="dd34283index.csv"/>
+		</Result>
+	</Results>
+	<DataDefinitions>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds962" name="dd1375">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi1381" base="bi979"/>
+				<RelationalDataItem name="bi1390" base="bi968"/>
+				<RelationalFilterItem name="bi1391">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(in(${bi1390,binned},&apos;Hive1&apos;),ismissing(${bi1390,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi6844" base="bi2873"/>
+				<RelationalDataItem name="bi34361" base="bi979"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds962" type="multidimensional" name="dd1376">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi1381"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi6844"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd1377"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi1391"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds962" name="dd1385">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi1383" base="bi979"/>
+				<RelationalDataItem name="bi1392" base="bi968"/>
+				<RelationalFilterItem name="bi1393">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(in(${bi1392,binned},&apos;Hive2&apos;),ismissing(${bi1392,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi6845" base="bi2873"/>
+				<RelationalDataItem name="bi34362" base="bi979"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds962" type="multidimensional" name="dd1386">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi1383"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi6845"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd1382"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi1393"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds962" name="dd2648">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi2664" base="bi979" usage="quantitative" aggregation="min"/>
+				<RelationalDataItem binOption="formatBin" name="bi2665" base="bi979" usage="quantitative" aggregation="max"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds962" type="relational" name="dd2649">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2664"/>
+							<BusinessItem ref="bi2665"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd2650"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" dataSource="ds6868" name="dd15751">
+			<BusinessItems>
+				<SyntheticItems name="si15754">
+					<Item purpose="purpose" name="bi15755"/>
+					<Item purpose="xref" name="bi15756"/>
+					<Item purpose="usage" name="bi15757"/>
+				</SyntheticItems>
+			</BusinessItems>
+			<DataDefinition dataSource="ds6868" type="procedural" name="dd15752">
+				<ProceduralQuery type="score" scoreCodeNumber="15753">
+					<GeneratedResources>
+						<GeneratedTable purpose="scoredTable" lifetime="executor" name="ge15759"/>
+					</GeneratedResources>
+					<Arguments>
+						<ListArgument purpose="steps">
+							<ArgumentGroup group="partition">
+								<Argument purpose="samplingType">
+									<StringValue>random</StringValue>
+								</Argument>
+								<Argument purpose="trainingPercent">
+									<IntValue>70</IntValue>
+								</Argument>
+								<ArgumentGroup group="column">
+									<Argument purpose="purpose">
+										<StringValue>partitionColumn</StringValue>
+									</Argument>
+									<Argument purpose="xref">
+										<StringValue>_PARTITION15750_</StringValue>
+									</Argument>
+									<Argument purpose="usage">
+										<StringValue>categorical</StringValue>
+									</Argument>
+								</ArgumentGroup>
+							</ArgumentGroup>
+						</ListArgument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="generatedXrefs" name="dd15758" syntheticItems="si15754"/>
+					<ResultDefinition purpose="generatedXrefs" name="dd15760" syntheticItems="si15754"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" dataSource="ds29228" name="dd29915">
+			<BusinessItems>
+				<SyntheticItems name="si29918">
+					<Item purpose="purpose" name="bi29919"/>
+					<Item purpose="xref" name="bi29920"/>
+					<Item purpose="usage" name="bi29921"/>
+				</SyntheticItems>
+			</BusinessItems>
+			<DataDefinition dataSource="ds29228" type="procedural" name="dd29916">
+				<ProceduralQuery type="score" scoreCodeNumber="29917">
+					<GeneratedResources>
+						<GeneratedTable purpose="scoredTable" lifetime="executor" name="ge29923"/>
+					</GeneratedResources>
+					<Arguments>
+						<ListArgument purpose="steps">
+							<ArgumentGroup group="partition">
+								<Argument purpose="samplingType">
+									<StringValue>random</StringValue>
+								</Argument>
+								<Argument purpose="trainingPercent">
+									<IntValue>70</IntValue>
+								</Argument>
+								<ArgumentGroup group="column">
+									<Argument purpose="purpose">
+										<StringValue>partitionColumn</StringValue>
+									</Argument>
+									<Argument purpose="xref">
+										<StringValue>_PARTITION29914_</StringValue>
+									</Argument>
+									<Argument purpose="usage">
+										<StringValue>categorical</StringValue>
+									</Argument>
+								</ArgumentGroup>
+							</ArgumentGroup>
+						</ListArgument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="generatedXrefs" name="dd29922" syntheticItems="si29918"/>
+					<ResultDefinition purpose="generatedXrefs" name="dd29924" syntheticItems="si29918"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds2809" name="dd31171">
+			<BusinessItems>
+				<RelationalDataItem name="bi31175" base="bi2812"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds2809" type="relational" name="dd31172">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi31175"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi31175" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd31173"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds29925" name="dd31264">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi31269" base="bi29242"/>
+				<RelationalDataItem name="bi31271" base="bi29230"/>
+				<RelationalDataItem name="bi34363" base="bi29232"/>
+				<RelationalDataItem name="bi34364" base="bi29242"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds29925" type="multidimensional" name="dd31265">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi31269"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi31271"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd31266"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds15761" name="dd31274">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi31279" base="bi6876"/>
+				<RelationalDataItem name="bi31281" base="bi6870"/>
+				<RelationalDataItem name="bi34365" base="bi6872"/>
+				<RelationalDataItem name="bi34366" base="bi6876"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds15761" type="multidimensional" name="dd31275">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi31279"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi31281"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd31276"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds31282" name="dd31312">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi31317" base="bi31290"/>
+				<RelationalDataItem name="bi31319" base="bi31284"/>
+				<RelationalDataItem name="bi34367" base="bi31286"/>
+				<RelationalDataItem name="bi34368" base="bi31290"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds31282" type="multidimensional" name="dd31313">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi31317"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi31319"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd31314"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds31296" name="dd31322">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi31327" base="bi31304"/>
+				<RelationalDataItem name="bi31329" base="bi31298"/>
+				<RelationalDataItem name="bi34369" base="bi31300"/>
+				<RelationalDataItem name="bi34370" base="bi31304"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds31296" type="multidimensional" name="dd31323">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi31327"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi31329"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd31324"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds29925" name="dd34066">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi34076" base="bi29242" usage="quantitative" aggregation="min"/>
+				<RelationalDataItem binOption="formatBin" name="bi34077" base="bi29242" usage="quantitative" aggregation="max"/>
+				<RelationalDataItem name="bi34371" base="bi29232"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds29925" type="relational" name="dd34067">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi34076"/>
+							<BusinessItem ref="bi34077"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd34068"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds962" name="dd34137">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi34153" base="bi979"/>
+				<RelationalDataItem name="bi34159" base="bi968"/>
+				<RelationalFilterItem name="bi34160">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(in(${bi34159,binned},&apos;Hive1&apos;),ismissing(${bi34159,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi34164" base="bi986"/>
+				<RelationalDataItem name="bi34372" base="bi979"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds962" type="multidimensional" name="dd34138">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi34153"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi34164"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd34139"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi34160"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds962" name="dd34147">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi34155" base="bi979"/>
+				<RelationalDataItem name="bi34157" base="bi968"/>
+				<RelationalFilterItem name="bi34158">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(in(${bi34157,binned},&apos;Hive2&apos;),ismissing(${bi34157,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi34163" base="bi986"/>
+				<RelationalDataItem name="bi34373" base="bi979"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds962" type="multidimensional" name="dd34148">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi34155"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi34163"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd34146"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi34158"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds34029" name="dd34169">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi34174" base="bi34045"/>
+				<RelationalDataItem name="bi34176" base="bi34038"/>
+				<RelationalDataItem name="bi34374" base="bi34035"/>
+				<RelationalDataItem name="bi34375" base="bi34045"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds34029" type="multidimensional" name="dd34170">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi34174"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi34176"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd34171"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds34029" name="dd34179">
+			<BusinessItems>
+				<RelationalDataItem name="bi34183" base="bi34035"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds34029" type="relational" name="dd34180">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi34183"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi34183" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd34181"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds34029" name="dd34286">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi34284" base="bi34045"/>
+				<RelationalDataItem name="bi34292" base="bi34037"/>
+				<RelationalFilterItem name="bi34293">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>and(between(${bi34292,raw},8,74),notMissing(${bi34292,raw}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi34376" base="bi34035"/>
+				<RelationalDataItem name="bi34377" base="bi34045"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds34029" type="multidimensional" name="dd34287">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi34284"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi34292"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="timeSeries" maxRowsBehavior="noData" name="dd34283"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi34293"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds34029" name="dd34296">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi34300" base="bi34045" usage="quantitative" aggregation="min"/>
+				<RelationalDataItem binOption="formatBin" name="bi34301" base="bi34045" usage="quantitative" aggregation="max"/>
+				<RelationalDataItem name="bi34378" base="bi34035"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds34029" type="relational" name="dd34297">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi34300"/>
+							<BusinessItem ref="bi34301"/>
+						</Axis>
+					</Axes>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd34298"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+	</DataDefinitions>
+	<DataSources>
+		<DataSource label="MARLOWHIVES_V2" type="relational" name="ds962">
+			<CasResource server="cas-shared-default" library="CASUSER" table="MARLOWHIVES_V2" locale="en_GB"/>
+			<BusinessItemFolder>
+				<DataItem name="bi963" xref="App"/>
+				<DataItem name="bi964" xref="Battery"/>
+				<DataItem name="bi965" xref="Cloud_Cover"/>
+				<DataItem name="bi966" xref="Device"/>
+				<DataItem name="bi967" xref="DownloadTimeStamp"/>
+				<DataItem name="bi968" xref="Hive"/>
+				<DataItem name="bi969" xref="Hive_Position"/>
+				<DataItem name="bi970" xref="Humidity"/>
+				<DataItem name="bi971" xref="Local_TimeStamp"/>
+				<DataItem name="bi972" xref="Metric"/>
+				<DataItem name="bi974" xref="new_weight_difference"/>
+				<DataItem name="bi975" xref="Precipitation_cm"/>
+				<DataItem name="bi976" xref="Record_Type"/>
+				<DataItem name="bi977" xref="Relative_Humidity"/>
+				<DataItem name="bi978" xref="Sample"/>
+				<DataItem name="bi979" xref="SAS_datetime"/>
+				<DataItem name="bi980" xref="Scaled_Weight"/>
+				<DataItem name="bi981" xref="SurfacePressure_millibars"/>
+				<DataItem name="bi982" xref="Temperature"/>
+				<DataItem name="bi983" xref="UNIX_hour_round"/>
+				<DataItem name="bi984" xref="Unix_Time"/>
+				<DataItem name="bi985" xref="UTC_TimeStamp"/>
+				<DataItem name="bi986" xref="Weight" aggregation="average"/>
+				<DataItem name="bi987" xref="weight_difference"/>
+				<DataItem name="bi988" xref="Weight_Scale_Factor"/>
+				<DataItem name="bi989" xref="WeightL"/>
+				<DataItem name="bi990" xref="WeightLRaw"/>
+				<DataItem name="bi991" xref="WeightR"/>
+				<DataItem name="bi992" xref="WeightRRaw"/>
+				<DataItem name="bi993" xref="WindDirection_degrees"/>
+				<DataItem name="bi994" xref="WindSpeed10mAbove_km/h"/>
+				<PredefinedDataItem calculation="totalCount" name="bi995" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi996" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi1503" xref="change_weight_flag"/>
+				<DataItem name="bi2873" xref="bee_productivity"/>
+				<CalculatedItem dataType="double" name="bi31089" label="hour" usage="categorical" format="COMMA12.2" aggregation="sum">
+					<Expression>hour(${bi979,binned})</Expression>
+				</CalculatedItem>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="HIVE_DATA_HOUR" type="relational" name="ds2809">
+			<CasResource server="cas-shared-default" library="CASUSER" table="HIVE_DATA_HOUR" locale="en_GB"/>
+			<BusinessItemFolder>
+				<DataItem name="bi2810" xref="aggregation"/>
+				<DataItem name="bi2811" xref="Cloud_Cover"/>
+				<DataItem name="bi2812" xref="Hive"/>
+				<DataItem name="bi2813" xref="new_weight" aggregation="average"/>
+				<DataItem name="bi2814" xref="new_weight_difference" aggregation="average"/>
+				<DataItem name="bi2815" xref="Precipitation_cm"/>
+				<DataItem name="bi2816" xref="Relative_Humidity"/>
+				<DataItem name="bi2817" xref="sas_datetime"/>
+				<DataItem name="bi2818" xref="Temperature" aggregation="average"/>
+				<DataItem name="bi2819" xref="WindDirection_degrees"/>
+				<DataItem name="bi2820" xref="WindSpeed10mAbove_km/h"/>
+				<PredefinedDataItem calculation="totalCount" name="bi2821" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi2822" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi2829" xref="hour" usage="categorical"/>
+				<DataItem name="bi2830" xref="date"/>
+				<DataItem name="bi2874" xref="bee_productivity" aggregation="average"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="HIVE_DATA_WEEK" type="relational" hidden="true" name="ds6868">
+			<CasResource server="cas-shared-default" library="CASUSER" table="HIVE_DATA_WEEK" locale="en_GB"/>
+		</DataSource>
+		<DataSource label="HIVE_DATA_WEEK" type="relational" hidden="false" name="ds15761">
+			<GeneratedResource type="inherited" resource="ge15759" generator="dd15752" source="ds6868" lifetime="executor"/>
+			<BusinessItemFolder>
+				<DataItem name="bi6869" xref="aggregation"/>
+				<DataItem name="bi6870" xref="bee_productivity"/>
+				<DataItem name="bi6871" xref="Cloud_Cover"/>
+				<DataItem name="bi6872" xref="Hive"/>
+				<DataItem name="bi6873" xref="new_weight_difference"/>
+				<DataItem name="bi6874" xref="Precipitation_cm"/>
+				<DataItem name="bi6875" xref="Relative_Humidity"/>
+				<DataItem name="bi6876" xref="sas_datetime"/>
+				<DataItem name="bi6877" xref="Temperature"/>
+				<DataItem name="bi6878" xref="WindDirection_degrees"/>
+				<DataItem name="bi6879" xref="WindSpeed10mAbove_km/h"/>
+				<PredefinedDataItem calculation="totalCount" name="bi6880" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi6881" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<GeneratedDataItem purpose="partitionColumn" name="bi15762" label="Partition" xref="_PARTITION15750_" usage="categorical" format="COMMA10.0">
+					<Partitions>
+						<Partition purpose="train">&apos;1&apos;</Partition>
+						<Partition purpose="validate">&apos;0&apos;</Partition>
+					</Partitions>
+				</GeneratedDataItem>
+				<DataItem name="bi23802" xref="prev_week_cloud1"/>
+				<DataItem name="bi23803" xref="prev_week_humidity1"/>
+				<DataItem name="bi23804" xref="prev_week_rain1"/>
+				<DataItem name="bi23805" xref="prev_week_temp1"/>
+				<DataItem name="bi23806" xref="prev_week_winddir1"/>
+				<DataItem name="bi23807" xref="prev_week_windspd1"/>
+				<DataItem name="bi23808" xref="weight_difference_sign"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="HIVE_DATA_DAY" type="relational" hidden="true" name="ds29228">
+			<CasResource server="cas-shared-default" library="CASUSER" table="HIVE_DATA_DAY" locale="en_GB"/>
+		</DataSource>
+		<DataSource label="HIVE_DATA_DAY" type="relational" hidden="false" name="ds29925">
+			<GeneratedResource type="inherited" resource="ge29923" generator="dd29916" source="ds29228" lifetime="executor"/>
+			<BusinessItemFolder>
+				<DataItem name="bi29229" xref="aggregation"/>
+				<DataItem name="bi29230" xref="bee_productivity"/>
+				<DataItem name="bi29231" xref="Cloud_Cover"/>
+				<DataItem name="bi29232" xref="Hive"/>
+				<DataItem name="bi29233" xref="new_weight_difference"/>
+				<DataItem name="bi29234" xref="Precipitation_cm"/>
+				<DataItem name="bi29235" xref="prev_day_cloud1"/>
+				<DataItem name="bi29236" xref="prev_day_humidity1"/>
+				<DataItem name="bi29237" xref="prev_day_rain1"/>
+				<DataItem name="bi29238" xref="prev_day_temp1"/>
+				<DataItem name="bi29239" xref="prev_day_winddir1"/>
+				<DataItem name="bi29240" xref="prev_day_windspd1"/>
+				<DataItem name="bi29241" xref="Relative_Humidity"/>
+				<DataItem name="bi29242" xref="sas_datetime"/>
+				<DataItem name="bi29243" xref="Temperature"/>
+				<DataItem name="bi29244" xref="weight_difference_sign"/>
+				<DataItem name="bi29245" xref="WindDirection_degrees"/>
+				<DataItem name="bi29246" xref="WindSpeed10mAbove_km/h"/>
+				<PredefinedDataItem calculation="totalCount" name="bi29247" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi29248" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<GeneratedDataItem purpose="partitionColumn" name="bi29926" label="Partition" xref="_PARTITION29914_" usage="categorical" format="COMMA10.0">
+					<Partitions>
+						<Partition purpose="train">&apos;1&apos;</Partition>
+						<Partition purpose="validate">&apos;0&apos;</Partition>
+					</Partitions>
+				</GeneratedDataItem>
+				<DataItem name="bi30114" xref="prev_day_cloud2"/>
+				<DataItem name="bi30115" xref="prev_day_cloud3"/>
+				<DataItem name="bi30116" xref="prev_day_humidity2"/>
+				<DataItem name="bi30117" xref="prev_day_humidity3"/>
+				<DataItem name="bi30118" xref="prev_day_rain2"/>
+				<DataItem name="bi30119" xref="prev_day_rain3"/>
+				<DataItem name="bi30120" xref="prev_day_temp2"/>
+				<DataItem name="bi30121" xref="prev_day_temp3"/>
+				<DataItem name="bi30122" xref="prev_day_winddir2"/>
+				<DataItem name="bi30123" xref="prev_day_winddir3"/>
+				<DataItem name="bi30124" xref="prev_day_windspd2"/>
+				<DataItem name="bi30125" xref="prev_day_windspd3"/>
+				<GroupedItem grouping="gr33288" dataType="string" label="new_weight_diff_sign3" name="bi33286">
+					<GroupingParameters>
+						<GroupingParameter parameter="bi29233" variable="var33287"/>
+					</GroupingParameters>
+				</GroupedItem>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="HIVE_DATA_SEMIMONTH" type="relational" name="ds31282">
+			<CasResource server="cas-shared-default" library="CASUSER" table="HIVE_DATA_SEMIMONTH" locale="en_GB"/>
+			<BusinessItemFolder>
+				<DataItem name="bi31283" xref="aggregation"/>
+				<DataItem name="bi31284" xref="bee_productivity"/>
+				<DataItem name="bi31285" xref="Cloud_Cover"/>
+				<DataItem name="bi31286" xref="Hive"/>
+				<DataItem name="bi31287" xref="new_weight_difference"/>
+				<DataItem name="bi31288" xref="Precipitation_cm"/>
+				<DataItem name="bi31289" xref="Relative_Humidity"/>
+				<DataItem name="bi31290" xref="sas_datetime"/>
+				<DataItem name="bi31291" xref="Temperature"/>
+				<DataItem name="bi31292" xref="WindDirection_degrees"/>
+				<DataItem name="bi31293" xref="WindSpeed10mAbove_km/h"/>
+				<PredefinedDataItem calculation="totalCount" name="bi31294" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi31295" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="HIVE_DATA_MONTH" type="relational" name="ds31296">
+			<CasResource server="cas-shared-default" library="CASUSER" table="HIVE_DATA_MONTH" locale="en_GB"/>
+			<BusinessItemFolder>
+				<DataItem name="bi31297" xref="aggregation"/>
+				<DataItem name="bi31298" xref="bee_productivity"/>
+				<DataItem name="bi31299" xref="Cloud_Cover"/>
+				<DataItem name="bi31300" xref="Hive"/>
+				<DataItem name="bi31301" xref="new_weight_difference"/>
+				<DataItem name="bi31302" xref="Precipitation_cm"/>
+				<DataItem name="bi31303" xref="Relative_Humidity"/>
+				<DataItem name="bi31304" xref="sas_datetime"/>
+				<DataItem name="bi31305" xref="Temperature"/>
+				<DataItem name="bi31306" xref="WindDirection_degrees"/>
+				<DataItem name="bi31307" xref="WindSpeed10mAbove_km/h"/>
+				<PredefinedDataItem calculation="totalCount" name="bi31308" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi31309" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="MARLOWHIVES_TEMPERATURE" type="relational" name="ds34029">
+			<CasResource server="cas-shared-default" library="CASUSER" table="MARLOWHIVES_TEMPERATURE" locale="en_GB"/>
+			<BusinessItemFolder>
+				<DataItem name="bi34030" xref="App"/>
+				<DataItem name="bi34031" xref="Battery"/>
+				<DataItem name="bi34032" xref="Cloud_Cover"/>
+				<DataItem name="bi34033" xref="Device"/>
+				<DataItem name="bi34034" xref="DownloadTimeStamp"/>
+				<DataItem name="bi34035" xref="Hive"/>
+				<DataItem name="bi34036" xref="Hive_Position"/>
+				<DataItem name="bi34037" xref="internal_humidity"/>
+				<DataItem name="bi34038" xref="internal_temperature"/>
+				<DataItem name="bi34039" xref="Local_TimeStamp"/>
+				<DataItem name="bi34040" xref="Metric"/>
+				<DataItem name="bi34041" xref="Precipitation_cm"/>
+				<DataItem name="bi34042" xref="Record_Type"/>
+				<DataItem name="bi34043" xref="Relative_Humidity"/>
+				<DataItem name="bi34044" xref="Sample"/>
+				<DataItem name="bi34045" xref="SAS_datetime"/>
+				<DataItem name="bi34046" xref="Scaled_Weight"/>
+				<DataItem name="bi34047" xref="SurfacePressure_millibars"/>
+				<DataItem name="bi34048" xref="Temperature"/>
+				<DataItem name="bi34049" xref="UNIX_hour_round"/>
+				<DataItem name="bi34050" xref="Unix_Time"/>
+				<DataItem name="bi34051" xref="UTC_TimeStamp"/>
+				<DataItem name="bi34052" xref="WindDirection_degrees"/>
+				<DataItem name="bi34053" xref="WindSpeed10mAbove_km/h"/>
+				<PredefinedDataItem calculation="totalCount" name="bi34054" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi34055" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi34282" xref="Humidity"/>
+			</BusinessItemFolder>
+		</DataSource>
+	</DataSources>
+	<VisualElements>
+		<Graph graphType="timeSeries" supplementalVisuals="ve1380" resultDefinitions="dd1377" name="ve1365" data="dd1375" label="Time - SAS_datetime 4" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34361</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Hive 1 - Bee Productivity</Span></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd1377.bi1381</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd1377.bi6844</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd1377.bi1381</Value>
+                    <Value>dd1377.bi6844</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_97" data="dd1377"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_97">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="DRM_1" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="AxisOptions_758" reverse="false">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <LinearOpts>
+                    <TickValueFormatOpts/>
+                </LinearOpts>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>DRM_1</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="AxisOptions_758"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="timeSeries" supplementalVisuals="ve1387" resultDefinitions="dd1382" name="ve1388" data="dd1385" label="Time - SAS_datetime 5" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34362</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Hive 2 - Adjusted Weight</Span></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd1382.bi1383</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd1382.bi6845</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd1382.bi1383</Value>
+                    <Value>dd1382.bi6845</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_97" data="dd1382"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_97">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="DRM_1" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="AxisOptions_758" reverse="false">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <LinearOpts>
+                    <TickValueFormatOpts/>
+                </LinearOpts>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>DRM_1</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="AxisOptions_758"/>
+</StatGraph>]]>
+		</Graph>
+		<Prompt ref="pr2651" name="ve2647" label="Slider - SAS_datetime 1" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi2664">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<DualSlider/>
+		</Prompt>
+		<Table columnSizing="autoFill" resultDefinitions="dd1377" name="ve1380" data="dd1375" applyDynamicBrushes="yes" sourceInteractionVariables="bi1381 bi34361">
+			<Columns>
+				<Column variable="bi1381"/>
+				<Column variable="bi6844"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd1382" name="ve1387" data="dd1385" applyDynamicBrushes="yes" sourceInteractionVariables="bi1383 bi34362">
+			<Columns>
+				<Column variable="bi1383"/>
+				<Column variable="bi6845"/>
+			</Columns>
+		</Table>
+		<Prompt ref="pr31174" name="ve31170" label="Button bar - Hive 2" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi31175">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<LinkBar/>
+		</Prompt>
+		<VisualContainer containerType="scrolling" name="ve31261" label="Scrolling container 1" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Graph graphType="timeSeries" supplementalVisuals="ve31268" resultDefinitions="dd31266" name="ve31263" data="dd31264" label="Time - sas_datetime 3" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34363,bi34364</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi29230"/><Substitution valueType="label" variables="bi29242"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd31266.bi31269</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31266.bi31271</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31266.bi31269</Value>
+                    <Value>dd31266.bi31271</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_39" data="dd31266"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_39" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd31266" name="ve31268" data="dd31264" applyDynamicBrushes="yes" sourceInteractionVariables="bi31269 bi34364">
+			<Columns>
+				<Column variable="bi31269"/>
+				<Column variable="bi31271"/>
+			</Columns>
+		</Table>
+		<Graph graphType="timeSeries" supplementalVisuals="ve31278" resultDefinitions="dd31276" name="ve31273" data="dd31274" label="Time - sas_datetime 1" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34365,bi34366</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi6870"/><Substitution valueType="label" variables="bi6876"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd31276.bi31279</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31276.bi31281</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31276.bi31279</Value>
+                    <Value>dd31276.bi31281</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_53" data="dd31276"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_53" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd31276" name="ve31278" data="dd31274" applyDynamicBrushes="yes" sourceInteractionVariables="bi31279 bi34366">
+			<Columns>
+				<Column variable="bi31279"/>
+				<Column variable="bi31281"/>
+			</Columns>
+		</Table>
+		<Graph graphType="timeSeries" supplementalVisuals="ve31316" resultDefinitions="dd31314" name="ve31311" data="dd31312" label="Time - sas_datetime 2" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34367,bi34368</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi31284"/><Substitution valueType="label" variables="bi31290"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd31314.bi31317</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31314.bi31319</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31314.bi31317</Value>
+                    <Value>dd31314.bi31319</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_74" data="dd31314"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_74" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd31314" name="ve31316" data="dd31312" applyDynamicBrushes="yes" sourceInteractionVariables="bi31317 bi34368">
+			<Columns>
+				<Column variable="bi31317"/>
+				<Column variable="bi31319"/>
+			</Columns>
+		</Table>
+		<Graph graphType="timeSeries" supplementalVisuals="ve31326" resultDefinitions="dd31324" name="ve31321" data="dd31322" label="Time - sas_datetime 4" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34369,bi34370</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi31298"/><Substitution valueType="label" variables="bi31304"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd31324.bi31327</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31324.bi31329</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd31324.bi31327</Value>
+                    <Value>dd31324.bi31329</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_88" data="dd31324"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_88" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd31324" name="ve31326" data="dd31322" applyDynamicBrushes="yes" sourceInteractionVariables="bi31327 bi34370">
+			<Columns>
+				<Column variable="bi31327"/>
+				<Column variable="bi31329"/>
+			</Columns>
+		</Table>
+		<Prompt ref="pr34069" name="ve34065" label="Slider - sas_datetime 1" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi34076">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi34371</Property>
+			</EditorProperties>
+			<DualSlider/>
+		</Prompt>
+		<VisualContainer containerType="stacking" name="ve34089" label="Stacking container 1" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<StackNavigationControl horizontalPosition="left" verticalPosition="top" buttonDirection="horizontal" buttonType="tab"/>
+		</VisualContainer>
+		<VisualContainer containerType="scrolling" name="ve34132" label="Bee Productivity" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="scrolling" name="ve34134" label="Original Weight" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="isAutoLabel">false</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Graph graphType="timeSeries" supplementalVisuals="ve34141" resultDefinitions="dd34139" name="ve34136" data="dd34137" label="Time - SAS_datetime 1" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34372</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi986"/><Substitution valueType="label" variables="bi979"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd34139.bi34153</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34139.bi34164</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34139.bi34153</Value>
+                    <Value>dd34139.bi34164</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_222" data="dd34139"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_222" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="timeSeries" supplementalVisuals="ve34149" resultDefinitions="dd34146" name="ve34150" data="dd34147" label="Time - SAS_datetime 2" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34373</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi986"/><Substitution valueType="label" variables="bi979"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd34146.bi34155</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34146.bi34163</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34146.bi34155</Value>
+                    <Value>dd34146.bi34163</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_222" data="dd34146"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_222" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd34146" name="ve34149" data="dd34147" applyDynamicBrushes="yes" sourceInteractionVariables="bi34155 bi34373">
+			<Columns>
+				<Column variable="bi34155"/>
+				<Column variable="bi34163"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd34139" name="ve34141" data="dd34137" applyDynamicBrushes="yes" sourceInteractionVariables="bi34153 bi34372">
+			<Columns>
+				<Column variable="bi34153"/>
+				<Column variable="bi34164"/>
+			</Columns>
+		</Table>
+		<Graph graphType="timeSeries" supplementalVisuals="ve34173" resultDefinitions="dd34171" name="ve34168" data="dd34169" label="Time - SAS_datetime 3" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34374,bi34375</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi34038"/><Substitution valueType="label" variables="bi34045"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd34171.bi34174</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34171.bi34176</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34171.bi34174</Value>
+                    <Value>dd34171.bi34176</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_264" data="dd34171"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_264" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd34171" name="ve34173" data="dd34169" applyDynamicBrushes="yes" sourceInteractionVariables="bi34174 bi34375">
+			<Columns>
+				<Column variable="bi34174"/>
+				<Column variable="bi34176"/>
+			</Columns>
+		</Table>
+		<Prompt ref="pr34182" name="ve34178" label="Button bar - Hive 1" selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi34183">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+			</EditorProperties>
+			<LinkBar/>
+		</Prompt>
+		<Graph graphType="timeSeries" supplementalVisuals="ve34288" resultDefinitions="dd34283" name="ve34289" data="dd34286" label="Time - SAS_datetime 6" applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi34376,bi34377</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi34037"/><Substitution valueType="label" variables="bi34045"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel" displayOptionPolicy="union">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="TIME" description="TIME_VAR" required="true" assignedType="any" type="time">
+                <DefaultValues>
+                    <Value>dd34283.bi34284</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="RESPONSE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34283.bi34292</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd34283.bi34284</Value>
+                    <Value>dd34283.bi34292</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_264" data="dd34283"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_264" cellHeightMin="1px" cellWidthMin="1px" includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <TimeSeriesPlot name="TimeSeriesPlot" tipListPolicy="replace" _stmt="timeseriesplot" compactLabelFormats="true" primary="true" break="true" fadeType="auto" display="NOMARKERS NOFILL" tip="TIP" group="GROUP" time="TIME" responseVars="RESPONSE"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+            </XAxisOpts>
+            <YAxisOpts reverse="false">
+                <DiscreteOpts/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend legendTitlePosition="top" allowCollapsed="true">
+        <AutoLegend>
+            <GraphNames>
+                <Value>TimeSeriesPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd34283" name="ve34288" data="dd34286" applyDynamicBrushes="yes" sourceInteractionVariables="bi34284 bi34377">
+			<Columns>
+				<Column variable="bi34284"/>
+				<Column variable="bi34292"/>
+			</Columns>
+		</Table>
+		<Prompt ref="pr34299" name="ve34295" label="Slider - SAS_datetime 2" selectionDisabled="true" applyDynamicBrushes="no" sourceInteractionVariables="bi34300">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="isAutoLabel">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi34378</Property>
+			</EditorProperties>
+			<DualSlider/>
+		</Prompt>
+	</VisualElements>
+	<PromptDefinitions>
+		<PromptDefinition data="dd2648" labelVariable="bi2664" resultDefinitions="dd2650" minVariable="bi2664" maxVariable="bi2665" name="pr2651">
+			<DefaultValue>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="1.953282792E9" max="1.974646797E9"/>
+			</DefaultValue>
+			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
+		</PromptDefinition>
+		<PromptDefinition data="dd31171" labelVariable="bi31175" valueVariable="bi31175" resultDefinitions="dd31173" name="pr31174">
+			<DefaultValue>
+				<String>Hive1</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd34066" labelVariable="bi34076" resultDefinitions="dd34068" minVariable="bi34076" maxVariable="bi34077" name="pr34069">
+			<DefaultValue>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="22608.0" max="22853.0"/>
+			</DefaultValue>
+			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
+		</PromptDefinition>
+		<PromptDefinition data="dd34179" labelVariable="bi34183" valueVariable="bi34183" resultDefinitions="dd34181" name="pr34182">
+			<DefaultValue>
+				<String>Hive1</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd34296" labelVariable="bi34300" resultDefinitions="dd34298" minVariable="bi34300" maxVariable="bi34301" name="pr34299">
+			<DefaultValue>
+				<NumericRange type="double" minInclusive="true" maxInclusive="true" min="1.968570339E9" max="1.974010228E9"/>
+			</DefaultValue>
+			<NumericRangeConstraint required="true" minInclusive="true" maxInclusive="true"/>
+		</PromptDefinition>
+	</PromptDefinitions>
+	<View>
+		<Header>
+			<MediaContainer target="mt2">
+				<ResponsiveLayout orientation="horizontal" overflow="fit">
+					<Weights mediaTarget="mt5" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt4" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+					<Weights mediaTarget="mt3" unit="percent">
+						<Weight value="100%"/>
+					</Weights>
+				</ResponsiveLayout>
+			</MediaContainer>
+		</Header>
+		<Section name="vi1316" label="bee productivity (date filter)">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve2647" name="vi2646">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Container ref="ve34089" name="vi34088">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="horizontal" overflow="stack">
+							<Weights mediaTarget="mt5" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt4" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt3" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+						</ResponsiveLayout>
+						<Container ref="ve34132" name="vi34131">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="scroll">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve1365" name="vi1364">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve1388" name="vi1389">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+						<Container ref="ve34134" name="vi34133">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="scroll">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve34136" name="vi34135">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" value="100%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve34150" name="vi34151">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi31158" label="Aggregated plots">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve31170" name="vi31169">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Container ref="ve31261" name="vi31260">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="scroll">
+							<Weights mediaTarget="mt5" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt4" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt3" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+						</ResponsiveLayout>
+						<Visual ref="ve34065" name="vi34064">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve31263" name="vi31262">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve31273" name="vi31272">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve31311" name="vi31310">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve31321" name="vi31320">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<Section name="vi34166" label="Temp &amp; Hum">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve34178" name="vi34177">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve34295" name="vi34294">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve34168" name="vi34167">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve34289" name="vi34290">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" preferredSizeBehavior="ignore" flexibility="flexible"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+	</View>
+	<Interactions>
+		<Interaction name="ia2670" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve2647" variable="bi2664"/>
+			<InteractionElementReference purpose="target" ref="ve1365" variable="bi34361"/>
+		</Interaction>
+		<Interaction name="ia2671" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve2647" variable="bi2664"/>
+			<InteractionElementReference purpose="target" ref="ve1388" variable="bi34362"/>
+		</Interaction>
+		<Interaction name="ia31330" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve31170" variable="bi31175"/>
+			<InteractionElementReference purpose="target" ref="ve31263" variable="bi34363"/>
+		</Interaction>
+		<Interaction name="ia31331" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve31170" variable="bi31175"/>
+			<InteractionElementReference purpose="target" ref="ve31273" variable="bi34365"/>
+		</Interaction>
+		<Interaction name="ia31332" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve31170" variable="bi31175"/>
+			<InteractionElementReference purpose="target" ref="ve31311" variable="bi34367"/>
+		</Interaction>
+		<Interaction name="ia31333" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve31170" variable="bi31175"/>
+			<InteractionElementReference purpose="target" ref="ve31321" variable="bi34369"/>
+		</Interaction>
+		<Interaction name="ia34075" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve31170" variable="bi31175"/>
+			<InteractionElementReference purpose="target" ref="ve34065" variable="bi34371"/>
+		</Interaction>
+		<Interaction name="ia34079" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34065" variable="bi34076"/>
+			<InteractionElementReference purpose="target" ref="ve31263" variable="bi34364"/>
+		</Interaction>
+		<Interaction name="ia34080" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34065" variable="bi34076"/>
+			<InteractionElementReference purpose="target" ref="ve31273" variable="bi34366"/>
+		</Interaction>
+		<Interaction name="ia34081" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34065" variable="bi34076"/>
+			<InteractionElementReference purpose="target" ref="ve31311" variable="bi34368"/>
+		</Interaction>
+		<Interaction name="ia34082" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34065" variable="bi34076"/>
+			<InteractionElementReference purpose="target" ref="ve31321" variable="bi34370"/>
+		</Interaction>
+		<Interaction name="ia34161" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve2647" variable="bi2664"/>
+			<InteractionElementReference purpose="target" ref="ve34136" variable="bi34372"/>
+		</Interaction>
+		<Interaction name="ia34162" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve2647" variable="bi2664"/>
+			<InteractionElementReference purpose="target" ref="ve34150" variable="bi34373"/>
+		</Interaction>
+		<Interaction name="ia34215" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34178" variable="bi34183"/>
+			<InteractionElementReference purpose="target" ref="ve34168" variable="bi34374"/>
+		</Interaction>
+		<Interaction name="ia34291" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34178" variable="bi34183"/>
+			<InteractionElementReference purpose="target" ref="ve34289" variable="bi34376"/>
+		</Interaction>
+		<Interaction name="ia34302" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34178" variable="bi34183"/>
+			<InteractionElementReference purpose="target" ref="ve34295" variable="bi34378"/>
+		</Interaction>
+		<Interaction name="ia34303" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34295" variable="bi34300"/>
+			<InteractionElementReference purpose="target" ref="ve34168" variable="bi34375"/>
+		</Interaction>
+		<Interaction name="ia34304" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve34295" variable="bi34300"/>
+			<InteractionElementReference purpose="target" ref="ve34289" variable="bi34377"/>
+		</Interaction>
+	</Interactions>
+	<MediaSchemes>
+		<MediaScheme name="ms1">
+			<BaseStylesheetResource file="basems1.css" theme="opal"/>
+			<Stylesheet><![CDATA[]]></Stylesheet>
+		</MediaScheme>
+	</MediaSchemes>
+	<MediaTargets>
+		<MediaTarget windowSize="default" scheme="ms1" name="mt2"/>
+		<MediaTarget windowSize="small" scheme="ms1" name="mt3"/>
+		<MediaTarget windowSize="medium" scheme="ms1" name="mt4"/>
+		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
+	</MediaTargets>
+	<Properties>
+		<Property key="displayDataSource">ds29925</Property>
+		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
+		<Property key="ReportDataServiceVersion">2020.1.4</Property>
+	</Properties>
+	<Groupings>
+		<Grouping outputType="string" name="gr33288">
+			<GroupingVariables>
+				<GroupingVariable variable="var33287" type="double"/>
+			</GroupingVariables>
+			<Group>
+				<ValueExpression>&apos;negative&apos;</ValueExpression>
+				<TestExpression>between(${var33287,raw},-0.21,-0.03)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;neutral&apos;</ValueExpression>
+				<TestExpression>between(${var33287,raw},-0.03,0.03)</TestExpression>
+			</Group>
+			<Group>
+				<ValueExpression>&apos;positive&apos;</ValueExpression>
+				<TestExpression>between(${var33287,raw},0.03,0.24)</TestExpression>
+			</Group>
+			<Other>
+				<ValueExpression>&apos;Other&apos;</ValueExpression>
+			</Other>
+		</Grouping>
+	</Groupings>
+	<DataSourceMappings>
+		<InternalDataSourceMapping source="ds2809" target="ds15761" name="dm31335">
+			<InternalColumnMapping source="bi2812" target="bi6872"/>
+		</InternalDataSourceMapping>
+		<InternalDataSourceMapping source="ds2809" target="ds31282" name="dm31336">
+			<InternalColumnMapping source="bi2812" target="bi31286"/>
+		</InternalDataSourceMapping>
+		<InternalDataSourceMapping source="ds2809" target="ds31296" name="dm31337">
+			<InternalColumnMapping source="bi2812" target="bi31300"/>
+		</InternalDataSourceMapping>
+		<InternalDataSourceMapping source="ds29925" target="ds15761" name="dm34083">
+			<InternalColumnMapping source="bi29242" target="bi6876"/>
+		</InternalDataSourceMapping>
+		<InternalDataSourceMapping source="ds29925" target="ds31282" name="dm34084">
+			<InternalColumnMapping source="bi29242" target="bi31290"/>
+		</InternalDataSourceMapping>
+		<InternalDataSourceMapping source="ds29925" target="ds31296" name="dm34085">
+			<InternalColumnMapping source="bi29242" target="bi31304"/>
+		</InternalDataSourceMapping>
+		<InternalDataSourceMapping source="ds29925" target="ds2809" name="dm31334">
+			<InternalColumnMapping source="bi29232" target="bi2812"/>
+			<InternalColumnMapping source="bi29242" target="bi2817"/>
+		</InternalDataSourceMapping>
+	</DataSourceMappings>
+	<ExportProperties>
+		<Export destination="pdf">
+			<Property key="showCoverPage" value="true"></Property>
+			<Property key="showPageNumbers" value="true"></Property>
+		</Export>
+	</ExportProperties>
+	<ModelDataSources>
+		<ModelDataSource name="ds19386">
+			<Code><![CDATA[length _WARN_ $4;
+   label _WARN_ = 'Warnings';
+   label _CLUSTER_ID_ = 'Cluster ID';
+   label _DISTANCE_ = 'Distance to Centroid';
+
+   _i_ = 0;
+   _j_ = 0;
+   _k_ = 0;
+   _l_ = 0;
+   _dist_ = 0;
+   _minDist_ = 0;
+   _found_ = 0;
+   _unknown_ = 0;
+   _unknownflag_ = 0;
+   _intMindist2cntr_ = 0;
+   _missingflag4Int_ = 0;
+   _numberOfIntVars_ = 7;
+   _minDistInt_ = 0;
+   label _STANDARDIZED_DISTANCE_ = 'Standardized Distance to Centroid';
+
+   drop _i_;
+   drop _j_;
+   drop _k_;
+   drop _l_;
+   drop _dist_;
+   drop _minDist_;
+   drop _minDistInt_;
+   drop _unknown_;
+   drop _unknownflag_;
+   drop _found_;
+   drop _intMindist2cntr_;
+   drop _missingflag4Int_;
+   drop _numberOfIntVars_;
+   drop _minDistInt_;
+
+   array _intVals_19158{7} _temporary_;
+   array _intStdVals_19158{7} _temporary_;
+   array _intVars_19158[7] _temporary_;
+   _intVars_19158[1] =
+   Temperature;
+   _intVars_19158[2] =
+   Relative_Humidity;
+   _intVars_19158[3] =
+   previous_day_temp;
+   _intVars_19158[4] =
+   WindDirection_degrees;
+   _intVars_19158[5] =
+   'WindSpeed10mAbove_km/h'n;
+   _intVars_19158[6] =
+   Precipitation_cm;
+   _intVars_19158[7] =
+   Cloud_Cover;
+   array _cntrcoordsInt_19158{5,7} _temporary_ (
+   7.5234120122302
+   93.493402203064
+   6.9622134121238
+   162.21698612067
+   20.106354971599
+   0.0532709221629
+   87.851155346026
+   6.8923392633509
+   87.664692067173
+    6.587922290326
+   257.63385697091
+   25.340235920185
+    0.007974207765
+   75.921336183861
+   13.288471310465
+     77.4309522294
+   13.204255217501
+   184.21290389717
+   11.910619435001
+     0.00385580247
+   50.249311701979
+   3.2376840793337
+   82.918073711915
+   3.9139148397713
+   229.42882190099
+   15.666813328401
+   0.0007401114794
+   29.583496637233
+   7.4770634566467
+   87.997038832367
+   7.2753456583524
+    142.0319567574
+   12.876405387338
+   0.0042244968186
+   84.790482565562
+   );
+   array _stdcntrcoordsInt_19158 {5,7} _temporary_ (
+    -0.24679036731
+    1.272130938894
+   -0.367154643813
+   -0.437431925585
+     0.55607293835
+     3.29011864591
+    0.893306756152
+   -0.389196933819
+     0.50590059114
+   -0.452093053673
+    0.754725646328
+    1.271755594147
+     0.09431173778
+    0.474078932955
+    1.054140946616
+   -0.839405977879
+    1.049360668337
+   -0.162610505696
+   -0.564614718221
+   -0.196253003328
+   -0.428066086538
+   -1.213898836182
+   -0.118080177883
+   -1.058909319346
+    0.402326266375
+   -0.050991491456
+   -0.416073511809
+   -1.154287041476
+   -0.257249286151
+    0.549590219125
+   -0.296095103467
+   -0.689627741485
+   -0.432552819586
+   -0.170240610118
+    0.785751128541
+   );
+   array _stdscaleInt_19158 {7} _temporary_ (
+   4.4314863025604
+   7.6069946237131
+   4.4066179531115
+   80.037130240372
+   7.3131309054253
+    0.014173795758
+   28.456649349247
+   );
+   array _stdcenterInt_19158 {7} _temporary_ (
+   8.6170601445683
+   83.816308990238
+   8.5801236571185
+   197.22778212001
+   16.039720780481
+   0.0066374524561
+   62.430638224895
+   );
+
+   *************** check missing interval value ******************;
+   _missingflag4Int_ = 0;
+   do _i_ = 1 to _numberOfIntVars_ until(_missingflag4Int_);
+      if missing( _intVars_19158[_i_] ) then
+         _missingflag4Int_ = 1;
+   end;
+
+   if (_missingflag4Int_ = 1) then
+      substr(_WARN_, 1, 1) = 'M';
+   ********** prepare interval variable values *********;
+   do _i_ = 1 to _numberOfIntVars_;
+      if missing (_intVars_19158[_i_] ) then do;
+         _intVals_19158[_i_] = .;
+         _intStdVals_19158[_i_] = .;
+      end; else do;
+         if missing (_stdscaleInt_19158[_i_] ) then do;
+            _intStdVals_19158[_i_] = ( _intVars_19158[_i_] -  _stdcenterInt_19158[_i_]);
+         end; else do;
+            _intStdVals_19158[_i_] = ( _intVars_19158[_i_] -  _stdcenterInt_19158[_i_])
+                  /  _stdscaleInt_19158[_i_];
+         end;
+         _intVals_19158[_i_] = _intVars_19158[_i_];
+      end;
+   end;
+   ****************** find the closest cluster ******************;
+   if _missingflag4Int_ > 0  then
+   do;
+      _CLUSTER_ID_ = .;
+      _DISTANCE_ = .;
+      _minDistInt_ = .;
+      _STANDARDIZED_DISTANCE_ = .;
+   end;
+   else
+   do;
+      _CLUSTER_ID_ = .;
+      _minDist_ = 8.988465674E307;
+      do _i_=1 to               5;
+         _intMindist2cntr_ = 0;
+         do _j_=1 to               7;
+            _dist_ = _intStdVals_19158{_j_} - _stdcntrcoordsInt_19158{_i_,_j_};
+            _dist_ = _dist_ ** 2;
+            _intMindist2cntr_ = _intMindist2cntr_ + _dist_;
+         end;
+         _intMindist2cntr_ = _intMindist2cntr_ **              0.5;
+         if( _minDist_  > _intMindist2cntr_) then do;
+            _CLUSTER_ID_ = _i_;
+            _minDist_ = _intMindist2cntr_;
+         end;
+         _STANDARDIZED_DISTANCE_ = _minDist_;
+      end;
+      _DISTANCE_ = 8.988465674E307;
+      _i_ = _CLUSTER_ID_;
+      _intMindist2cntr_ = 0;
+      do _j_=1 to               7;
+         _dist_ = _intVals_19158{_j_} - _cntrcoordsInt_19158{_i_,_j_};
+         _dist_ = _dist_ ** 2;
+         _intMindist2cntr_ = _intMindist2cntr_ + _dist_;
+      end;
+      _intMindist2cntr_ = _intMindist2cntr_ **              0.5;
+      _DISTANCE_ = _intMindist2cntr_;
+   end;
+
+if (MISSING('_CLUSTER_ID_'n))then _CLUSTER_ID_ = -1;]]></Code>
+			<PrependCode><![CDATA[/*------------------------------------------
+   Generated SAS Scoring Code
+     Date             : 13Jul2022:21:09:39
+     Locale           : en_GB
+     Model Type       : Cluster
+     Interval variable: Temperature
+     Interval variable: Relative_Humidity
+     Interval variable: previous_day_temp
+     Interval variable: WindDirection_degrees
+     Interval variable: WindSpeed10mAbove_km/h
+     Interval variable: Precipitation_cm
+     Interval variable: Cloud_Cover
+     ------------------------------------------*/]]></PrependCode>
+			<AppendCode><![CDATA[/*------------------------------------------*/
+   /*_VA_DROP*/ drop '_CLUSTER_ID_'n '_DISTANCE_'n '_WARN_'n '_STANDARDIZED_DISTANCE_'n;
+   /*_VA_DROP_NUMBERED*/ drop '_CLUSTER_ID__19158'n '_DISTANCE__19158'n '_WARN__19158'n '_STANDARDIZED_DISTANCE__19158'n;
+      '_CLUSTER_ID__19158'n='_CLUSTER_ID_'n;
+'_DISTANCE__19158'n='_DISTANCE_'n;
+'_WARN__19158'n='_WARN_'n;
+'_STANDARDIZED_DISTANCE__19158'n='_STANDARDIZED_DISTANCE_'n;
+   /*------------------------------------------*/]]></AppendCode>
+		</ModelDataSource>
+	</ModelDataSources>
+	<History>
+	<Versions>
+		<Version key="4.16.0" lastDate="2022-05-16T00:00:00Z"/>
+		<Version key="4.20.0" lastDate="2022-06-09T00:00:00Z"/>
+	</Versions>
+	<Conversions>
+		<Conversion startVersion="4.16.0" finalVersion="4.20.0" date="2022-06-08T00:00:00Z"/>
+	</Conversions>
+	<Editors>
+		<Editor applicationName="VA">
+			<Revision editorVersion="2021.2.3" lastDate="2022-05-16T21:06:46.424Z"/>
+			<Revision editorVersion="2022.1.1" lastDate="2022-07-29T11:44:14.344Z"/>
+		</Editor>
+	</Editors>
+</History>
+	<SASReportState date="2022-07-24T20:00:49Z">
+		<View/>
+	</SASReportState>
+</SASReport>
